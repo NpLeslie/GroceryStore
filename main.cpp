@@ -31,7 +31,7 @@ int main()
       }
       else
       {
-        list[numItems-1]=item;
+        list[numItems]=item;
         numItems++; 
       }
     }

@@ -22,12 +22,12 @@ int main()
 
     if(input=='a' || input=='A')
     {
-      cout<<"What is the item? ";
+      cout<<"What is the item?"<<endl;
       cin>>item; 
 
-      if(numItems>5)
+      if(numItems>4)
       {
-        cout<<"You'll need a bigger list!";
+        cout<<"You'll need a bigger list!"<<endl;
       }
       else
       {

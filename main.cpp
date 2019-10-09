@@ -36,5 +36,16 @@ int main()
       }
     }
   }while(input!='q' && input!='Q'); 
+  
+  cout<<"==ITEMS TO BUY=="<<endl;
+
+  int index=0;
+
+  do
+  {
+    cout<<index+1<<" "<<list[index]<<endl;
+    index++; 
+  }while(index<5);
+ 
   return 0;
 }
